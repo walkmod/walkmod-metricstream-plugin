@@ -1,5 +1,5 @@
 /*
- * SYSTEMi Copyright © 2000-2015, MetricStream, Inc. All rights reserved.
+ * SYSTEMi Copyright Â© 2015, MetricStream, Inc. All rights reserved.
  * 
  * Walkmod is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
