@@ -15,10 +15,6 @@
 		class="com.metricstream.walkmod.visitors.ArrayDesignatorOnType"></bean>
 
 	<bean
-		id="com.metricstream:walkmod-metricstream-plugin:EqualsAndNotEqualsHandler"
-		class="com.metricstream.walkmod.visitors.EqualsAndNotEqualsHandler"></bean>
-
-	<bean
 		id="com.metricstream:walkmod-metricstream-plugin:PrimitiveInstantiationForToString"
 		class="com.metricstream.walkmod.visitors.PrimitiveInstantiationForToString"></bean>
 
