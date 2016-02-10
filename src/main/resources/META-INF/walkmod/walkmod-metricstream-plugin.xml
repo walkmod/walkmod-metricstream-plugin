@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+   "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<bean id="com.metrictream:walkmod-metricstream-plugin:AddCurlyBrackets"
+		class="com.metricstream.walkmod.visitors.AddCurlyBrackets"></bean>
+
+	<bean
+		id="com.metrictream:walkmod-metricstream-plugin:AddSwitchDefaultCase"
+		class="com.metricstream.walkmod.visitors.AddCurlyBrackets"></bean>
+
+	<bean
+		id="com.metrictream:walkmod-metricstream-plugin:ArrayDesignatorOnType"
+		class="com.metricstream.walkmod.visitors.ArrayDesignatorOnType"></bean>
+
+	<bean
+		id="com.metricstream:walkmod-metricstream-plugin:EqualsAndNotEqualsHandler"
+		class="com.metricstream.walkmod.visitors.EqualsAndNotEqualsHandler"></bean>
+
+	<bean
+		id="com.metricstream:walkmod-metricstream-plugin:PrimitiveInstantiationForToString"
+		class="com.metricstream.walkmod.visitors.PrimitiveInstantiationForToString"></bean>
+
+	<bean id="com.metricstream:walkmod-metricstream-plugin:RemoveCodeComment"
+		class="com.metricstream.walkmod.visitors.RemoveCodeComment"></bean>
+
+	<bean id="com.metricstream:walkmod-metricstream-plugin:RemoveEmptyMethod"
+		class="com.metricstream.walkmod.visitors.RemoveEmptyMethod"></bean>
+
+	<bean
+		id="com.metricstream:walkmod-metricstream-plugin:RemoveEmptyStatement"
+		class="com.metricstream.walkmod.visitors.RemoveEmptyStatement"></bean>
+
+	<bean
+		id="com.metricstream:walkmod-metricstream-plugin:RemoveLiteralBoolean"
+		class="com.metricstream.walkmod.visitors.RemoveLiteralBoolean"></bean>
+
+	<bean
+		id="com.metricstream:walkmod-metricstream-plugin:StaticInitializedFieldToFinal"
+		class="com.metricstream.walkmod.visitors.StaticInitializedFieldToFinal"></bean>
+
+	<bean id="com.metricstream:walkmod-metricstream-plugin:StringCheckOnLeft"
+		class="com.metricstream.walkmod.visitors.StringCheckOnLeft"></bean>
+
+	<bean
+		id="com.metricstream:walkmod-metricstream-plugin:UseCollectionsIsEmpty"
+		class="com.metricstream.walkmod.visitors.UseCollectionsIsEmpty"></bean>
+
+	<bean id="com.metricstream:walkmod-metricstream-plugin:UseStringEquals"
+		class="com.metricstream.walkmod.visitors.UseStringEquals"></bean>
+
+	<bean
+		id="com.metricstream:walkmod-metricstream-plugin:VariableImmediatelyReturned"
+		class="com.metricstream.walkmod.visitors.VariableImmediatelyReturned"></bean>
+
+</beans>
