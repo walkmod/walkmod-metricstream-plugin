@@ -94,8 +94,8 @@
 	</profiles>
 	<name>walkmod-metricstream-plugin</name>
 	<scm>
-		<url>https://github.com/walkmod/walkmod-pmd-plugin</url>
-		<connection>https://github.com/walkmod/walkmod-pmd-plugin.git</connection>
+		<url>https://github.com/walkmod/walkmod-metricstream-plugin</url>
+		<connection>https://github.com/walkmod/walkmod-metricstream-plugin.git</connection>
 	</scm>
 	<developers>
 		<developer>
