@@ -1,6 +1,8 @@
 walkmod-metricstream-plugin
 ===========================
 
+image:https://travis-ci.org/walkmod/walkmod-metricstream-plugin.svg?branch=master["Build Status", link="https://travis-ci.org/walkmod/walkmod-metricstream-plugin"]
+
 This is a walkmod plugin to apply all MetricStream conventions. It has been fully implemented by the MetricStream company and maintained by Walkmod.
 Currently, the supported rules are:
 
