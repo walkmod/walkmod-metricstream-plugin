@@ -1,0 +1,51 @@
+walkmod-metricstream-plugin
+===========================
+
+This is a walkmod plugin to apply all MetricStream conventions. It has been fully implemented by the MetricStream company and maintained by Walkmod.
+Currently, the supported rules are:
+
+----
+- AddCurlyBrackets : adds  { } inside the "if", "else", "for", "do", "while", "switch", and "foreach" to encapsulate statements.
+- AddSwitchDefaultCase: adds an empty default case into switch statements.
+- ArrayDesignatorOnType: to transform Type variable[] into Type[] variable
+- PrimitiveInstantiationForToString: to transform new Integer(5).toString() into Integer.valueOf(5);
+- RemoveCodeComment: To remove comments that only contains code.
+- RemoveEmptyMethod: To remove empty methods.
+- RemoveEmptyStatement: To remove empty statements (statements with just ';').
+- RemoveLiteralBoolean: To simplify boolean expressions
+- StaticInitializedFieldToFinal: Adds the final modifier to all the static methods.
+- StringCheckOnLeft: If the "equals" or "equalsIgnoreCase" method is invoked and the argument is an String literal, this string literal is becomes the implicit object.
+- UseCollectionIsEmpty: Transforms expressions that checks the collection size to see if it is empty to the method isEmpty().
+- UseStringEquals: If strings are compared using "==" the expression is transformed to use equals() method.
+- VariableImmediatelyReturned: if the return statement is a variable previously declared, this declaration is removed and the returned value is the initialization value of this variable.
+----
+
+== Usage
+
+1) Verify that your walkmod version is > = 2.2.0
+
+2) Execute the ´walkmod add´ command for the list of the desired subset of conventions.
+
+----
+walkmod add com.metricstream:metricstream:AddCurlyBrackets
+----
+
+3) Now, You see the results, executing: 
+
+----
+walkmod apply
+----
+
+Or, alternatively, you can also check which would be the modified classes typing:
+
+----
+walkmod check
+----
+
+== Contributing
+
+If you want to hack on this, fork it, improve it and send me a pull request.
+
+To get started using it, just clone it and call mvn install. 
+
+
