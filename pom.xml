@@ -3,8 +3,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.metricstream</groupId>
 	<artifactId>walkmod-metricstream-plugin</artifactId>
-	<version>1.0.0</version>
-	<url>https://github.com/walkmod/walkmod-pmd-plugin</url>
+	<version>1.0.1</version>
+	<url>https://github.com/walkmod/walkmod-metricstream-plugin</url>
 	<licenses>
 		<license>
 			<name>GNU General Public License (GPL v.3)</name>
@@ -104,5 +104,5 @@
 			<email>raquelpau@gmail.com</email>
 		</developer>
 	</developers>
-	<description>Walkmod plugin to automatically apply Metricstrec conventions</description>
+	<description>Walkmod plugin to automatically apply Metricstream conventions</description>
 </project>
