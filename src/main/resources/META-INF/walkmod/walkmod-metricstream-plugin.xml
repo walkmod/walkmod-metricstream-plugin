@@ -40,8 +40,8 @@
 		class="com.metricstream.walkmod.visitors.StringCheckOnLeft"></bean>
 
 	<bean
-		id="com.metricstream:walkmod-metricstream-plugin:UseCollectionsIsEmpty"
-		class="com.metricstream.walkmod.visitors.UseCollectionsIsEmpty"></bean>
+		id="com.metricstream:walkmod-metricstream-plugin:UseCollectionIsEmpty"
+		class="com.metricstream.walkmod.visitors.UseCollectionIsEmpty"></bean>
 
 	<bean id="com.metricstream:walkmod-metricstream-plugin:UseStringEquals"
 		class="com.metricstream.walkmod.visitors.UseStringEquals"></bean>
