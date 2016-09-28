@@ -3,15 +3,15 @@
    "http://www.springframework.org/dtd/spring-beans.dtd">
 
 <beans>
-	<bean id="com.metrictream:walkmod-metricstream-plugin:AddCurlyBrackets"
+	<bean id="com.metricstream:walkmod-metricstream-plugin:AddCurlyBrackets"
 		class="com.metricstream.walkmod.visitors.AddCurlyBrackets"></bean>
 
 	<bean
-		id="com.metrictream:walkmod-metricstream-plugin:AddSwitchDefaultCase"
+		id="com.metricstream:walkmod-metricstream-plugin:AddSwitchDefaultCase"
 		class="com.metricstream.walkmod.visitors.AddCurlyBrackets"></bean>
 
 	<bean
-		id="com.metrictream:walkmod-metricstream-plugin:ArrayDesignatorOnType"
+		id="com.metricstream:walkmod-metricstream-plugin:ArrayDesignatorOnType"
 		class="com.metricstream.walkmod.visitors.ArrayDesignatorOnType"></bean>
 
 	<bean
